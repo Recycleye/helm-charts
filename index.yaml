@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  coco-annotator:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2020-08-11T09:06:47.341109+01:00"
+    dependencies:
+    - name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.25.12
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 7.14.1
+    description: Coco Annotator
+    digest: 71fd443c7b8561945efd89bb2768d08df9eaf0b6cfa69f54a9265fd20cf2f2aa
+    name: coco-annotator
+    type: application
+    urls:
+    - https://github.com/Recycleye/coco-annotator-helm/releases/download/coco-annotator-0.0.2/coco-annotator-0.0.2.tgz
+    version: 0.0.2
+generated: "2020-08-11T09:06:47.132245+01:00"
